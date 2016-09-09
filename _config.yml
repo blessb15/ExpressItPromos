@@ -1,5 +1,5 @@
 # Site settings
-title: Just a Blog - a Jekyll blogging template by BowTie.io
+title: ExpressIt Promotional Products
 description: >
   A hosted markdown blog with intuitive online editing. BowTie makes it easy to build sites, blogs, or static apps that you can hand off to clients.
 
@@ -20,7 +20,7 @@ google_api_key: 'AIzaSyBL10xzYCPXKM_P5p6paZzLj9VH-21GaBY' # Your Google API key 
 theme:
   # Company contact info
   contact:
-    company:  Company Name
+    company:  ExpressIt Promotional
     address:  1644 Platte
     city:     Denver
     state:    CO

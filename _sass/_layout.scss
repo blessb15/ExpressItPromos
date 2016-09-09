@@ -1,236 +1,265 @@
 /**
  * Site header
  */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+.nav-bar {
+  margin-top: none;
+  height: 65px;
+  background-color: white;
+  background-attachment: scroll;
+  color: #261579;
+}
+
+.nav-home {
+  margin-left: 65px;
+  margin-bottom: 5px;
+  margin-top: 4px;
+  float: left;
+}
+
+.nav-right {
+  margin-right: 65px !important;
+  background-color: rgba(134, 199, 36, 0.5);
+  border-radius: 5px;
+  padding: 7px;
+  margin-top: 13px !important;
+}
+
+.nav-right:hover {
+  background-color: rgba(134, 199, 36, 0.8) !important;
+}
+
+.nav-button {
+  margin-top: 13px;
+  margin-left: 15px;
+  margin-right: 15px;
+  float: right;
+  padding: 7px;
+}
+
+.nav-button:hover {
+  background-color: rgba(134, 199, 36, 0.5);
+  border-radius: 5px;
+  padding: 7px;
+  margin-top: 13px !important;
+}
+
+.nav-stripe {
+  height: 2px;
+  background-color: #86c724;
+}
+
+.title-head {
+  display: block;
+  align-content: center;
+  z-index: 2;
+  text-align: center;
+  padding: 150px;
+  margin-bottom: 15px;
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-
-    &,
-    &:visited {
-        color: $grey-color-dark;
-    }
+  color: white;
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
+.site-title:hover {
+  text-decoration: none;
+  color: white;
 }
 
-
-
-/**
- * Site footer
- */
-.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+.site-title:visited {
+  color: white;
 }
 
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+.site-title:active {
+  color: white;
 }
 
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
+.underlay {
+
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/screenprintingbackground2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-
 
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
+
+.left-side {
+  margin-left: 45px;
+  float: left;
+}
+
+.right-side {
+  margin-right: 45px;
+  float: right;
+}
+
+.screenprinting {
+  height: 220px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/screenprinting.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+}
+
+.screenprinting:hover {
+  height: 220px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("/img/expressit/screenprinting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.embroidery {
+  height: 220px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/embroidery2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+}
+
+.embroidery:hover {
+  height: 220px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("/img/expressit/embroidery2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+}
+
+.promotional {
+  height: 220px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/promotional2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+}
+
+.promotional:hover {
+  height: 220px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("/img/expressit/promotional2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+}
+
+.stationary {
+  height: 220px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/stationary.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+}
+
+.stationary:hover {
+  height: 220px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("/img/expressit/stationary.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+}
+
+.catalogs {
+  height: 220px;
+  width: 850px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/catalogs.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-left: 10%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+}
+
+.catalogs:hover {
+  height: 220px;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ),
+  url("/img/expressit/catalogs.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
 }
 
 .page-heading {
     font-size: 20px;
 }
 
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+.col-md-5 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
 }
 
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+.category-title {
+  color: white;
 }
 
-.post-link {
-    display: block;
-    font-size: 24px;
+.category-excerpt {
+  color: white;
 }
-
-
 
 /**
- * Posts
+ * Site footer
  */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
-        }
-    }
-
-    h3 {
-        font-size: 26px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
-}
