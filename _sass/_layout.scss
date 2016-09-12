@@ -1,13 +1,28 @@
 /**
+ * fonts
+ */
+
+ @font-face {
+   font-family: Questrial;
+   src: url('/fonts/Questrial-Regular.ttf');
+ }
+
+/**
  * Site header
  */
 
 .nav-bar {
+  width: 100%;
+  display: block;
   margin-top: none;
   height: 65px;
   background-color: white;
-  background-attachment: scroll;
+  position: fixed;
   color: #261579;
+  z-index: 3;
+  -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+  -moz-box-shadow:    0px 3px 5px rgba(100, 100, 100, 0.49);
+  box-shadow:         0px 3px 5px rgba(100, 100, 100, 0.49);
 }
 
 .nav-home {
@@ -30,6 +45,8 @@
 }
 
 .nav-button {
+  font-family: Questrial;
+  font-size: 13px;
   margin-top: 13px;
   margin-left: 15px;
   margin-right: 15px;
@@ -38,7 +55,7 @@
 }
 
 .nav-button:hover {
-  background-color: rgba(134, 199, 36, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   padding: 7px;
   margin-top: 13px !important;
@@ -60,6 +77,8 @@
 
 .site-title {
   color: white;
+  font-family: Questrial;
+  font-size: 45px;
 }
 
 .site-title:hover {
@@ -207,7 +226,7 @@
 
 .catalogs {
   height: 220px;
-  width: 850px;
+  width: 75%;
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.5),

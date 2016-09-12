@@ -1,9 +1,9 @@
 # Site settings
-title: ExpressIt Promotional Products
+title: ExPress It Promotional Products
 description: >
   A hosted markdown blog with intuitive online editing. BowTie makes it easy to build sites, blogs, or static apps that you can hand off to clients.
 
-email: info@example.com
+email: expressitpromos@gmail.com
 
 logourl: /img/logo.png # Your logo or avatar
 
@@ -21,9 +21,9 @@ theme:
   # Company contact info
   contact:
     company:  ExpressIt Promotional
-    address:  1644 Platte
-    city:     Denver
-    state:    CO
+    address:  18120 SE Blanton st
+    city:     Milwaukie
+    state:    OR
     zip:      80202
     country:  USA
     phone:
