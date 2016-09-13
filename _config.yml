@@ -16,19 +16,19 @@ author_thumbnail: /img/user1.png # default author avatar
 
 google_analytics_id:  # Your google analytics ID (e.g. 'UA-XXXXXXXX-X')
 
-google_api_key: 'AIzaSyBL10xzYCPXKM_P5p6paZzLj9VH-21GaBY' # Your Google API key for Maps
+google_api_key: 'AIzaSyBVJLhULkSOJYrDdHjBIsyYw8PBWAsXujo' # Your Google API key for Maps
 
 theme:
   # Company contact info
   contact:
     company:  ExpressIt Promotional
-    address:  18120 SE Blanton st
+    address:  18120 SE Blanton St
     city:     Milwaukie
     state:    OR
-    zip:      80202
+    zip:      97222
     country:  USA
-    phone:
-    latlng:   39.733536,-104.992611 # (e.g. '39.733536,-104.992611')
+    phone:    503-703-9436
+    latlng:   45.391906,-122.616275 # (e.g. '45.391906,-122.616275')
     twitter:  twitter               # (e.g. 'twitter')
     facebook: facebook              # (e.g. 'facebook')
     github:                         # (e.g. 'github')

@@ -1,35 +1,31 @@
 <div class="nav-bar">
   <div class="nav-stripe">
   </div>
-  <span class="nav-button nav-right">CONTACT US</span>
+  <span class="nav-button nav-right"><a href="contact.html">CONTACT US</a></span>
   <div class="dropdown1">
     <span class="nav-button">SERVICES</span>
     <div class="dropdown-services">
-      <a href="#">Screen Printing</a>
-      <a href="#">Embroidery</a>
-      <a href="#">Artwork Requirements</a>
+      <a href="screenprinting.html">Screen Printing</a>
+      <a href="embroidery.html">Embroidery</a>
+      <a href="artworkreq.html">Artwork Requirements</a>
     </div>
   </div>
   <div class="dropdown2">
     <span class="nav-button product-btn">PRODUCTS</span>
     <div class="dropdown-products">
-      <a href="#">Promotional Products</a>
-      <a href="#">Stationary Products</a>
-      <a href="#">Wrist Coils</a>
+      <a href="promoproducts.html">Promotional Products</a>
+      <a href="stationaryproducts.html">Stationary Products</a>
+      <a href="wristcoils.html">Wrist Coils</a>
     </div>
   </div>
-  <span class="nav-button"></span>
-  <span class="nav-home"><img src="/img/expressit/explogo.jpg" width="100px" height="55px"></span>
+  <div class="dropdown3">
+    <span class="nav-button">CATALOGS</span>
+    <div class="dropdown-catalogs">
+      <a href="sanmar.html">San Mar</a>
+      <a href="thinc.html">Thinc Actionwear</a>
+    </div>
+  </div>
+  {% include nav1.html %}
+
+  <span class="nav-home"><a href="{{ site.baseurl }}/"><img src="/img/expressit/explogo.jpg" width="100px" height="55px"></a></span>
 </div>
-
-
-<header class="site-header">
-  <div class="underlay">
-    <div class="title-head">
-
-      <h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-      <!-- <center><img src="/img/expressit/expressitlogo.png" width="181" height="113"></center> -->
-
-    </div>
-  </div>
-</header>
