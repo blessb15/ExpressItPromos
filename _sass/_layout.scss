@@ -7,6 +7,10 @@
    src: url('/fonts/Questrial-Regular.ttf');
  }
 
+ .font1 {
+   font-family: Questrial;
+ }
+
 /**
  * Site header
  */
@@ -49,6 +53,15 @@
 
 .nav-right:hover {
   cursor: pointer;
+}
+
+.contact:hover {
+  text-decoration: none;
+}
+
+.contact:visited {
+  text-decoration: none;
+  color: #86c724;
 }
 
 .nav-button {
@@ -185,7 +198,7 @@
   z-index: 5;
 }
 
-////TITLE
+////INDEX TITLE
 
 .title-head {
   display: block;
@@ -243,9 +256,50 @@
  * Page content
  */
 
- .links:hover {
+
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.contact-info {
+  font-family: Questrial;
+  text-align: left;
+  margin-left: 20%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.contact-phone {
+  padding-left: 25px;
+}
+
+.contact-email {
+  padding-left: 25px;
+}
+
+.contact-fax {
+  padding-left: 25px;
+}
+
+.contact-title {
+ text-align: center;
+ font-family: Questrial;
+ margin-bottom: 30px;
+}
+
+.contact-excerpt {
+  margin-bottom: 45px;
+}
+
+.links:hover {
  	text-decoration: none;
- }
+}
 
 .left-side {
   margin-left: 45px;
