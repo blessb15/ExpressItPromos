@@ -198,118 +198,63 @@
   z-index: 5;
 }
 
-////INDEX TITLE
-
-.title-head {
-  display: block;
-  align-content: center;
-  z-index: 2;
-  text-align: center;
-  padding: 150px;
-  margin-bottom: 15px;
-}
-
-.site-title {
-  color: white;
-  font-family: Questrial;
-  font-size: 45px;
-}
-
-.site-title:hover {
-  text-decoration: none;
-  color: white;
-}
-
-.site-title:visited {
-  color: white;
-}
-
-.site-title:active {
-  color: white;
-}
-
-.underlay {
-  background:
-  linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),
-  url("/img/expressit/screenprintingbackground2.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
-
-.underlay-contact {
-  background:
-  linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),
-  url("/img/expressit/background.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
-
 /**
- * Page content
+ * Home page
  */
 
+ .underlay {
+   background:
+   linear-gradient(
+     rgba(0, 0, 0, 0.5),
+     rgba(0, 0, 0, 0.5)
+   ),
+   url("/img/expressit/screenprintingbackground2.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+ }
 
-.hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
+ .title-head {
+   display: block;
+   align-content: center;
+   z-index: 2;
+   text-align: center;
+   padding: 150px;
+   margin-bottom: 15px;
+ }
 
-.contact-info {
-  font-family: Questrial;
-  text-align: left;
-  margin-left: 20%;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  padding: 30px;
-}
+ .site-title {
+   color: white;
+   font-family: Questrial;
+   font-size: 45px;
+ }
 
-.contact-phone {
-  padding-left: 25px;
-}
+ .site-title:hover {
+   text-decoration: none;
+   color: white;
+ }
 
-.contact-email {
-  padding-left: 25px;
-}
+ .site-title:visited {
+   color: white;
+ }
 
-.contact-fax {
-  padding-left: 25px;
-}
+ .site-title:active {
+   color: white;
+ }
 
-.contact-title {
- text-align: center;
- font-family: Questrial;
- margin-bottom: 30px;
-}
+ .links:hover {
+  	text-decoration: none;
+ }
 
-.contact-excerpt {
-  margin-bottom: 45px;
-}
+ .left-side {
+   margin-left: 45px;
+   float: left;
+ }
 
-.links:hover {
- 	text-decoration: none;
-}
-
-.left-side {
-  margin-left: 45px;
-  float: left;
-}
-
-.right-side {
-  margin-right: 45px;
-  float: right;
-}
+ .right-side {
+   margin-right: 45px;
+   float: right;
+ }
 
 .screenprinting {
   height: 220px;
@@ -468,6 +413,345 @@
 .category-excerpt {
   color: white;
 }
+
+/**
+* Contact Page
+*/
+
+.underlay-contact {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.contact-info {
+  font-family: Questrial;
+  text-align: left;
+  margin-left: 20%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.contact-phone {
+  padding-left: 25px;
+}
+
+.contact-email {
+  padding-left: 25px;
+}
+
+.contact-fax {
+  padding-left: 25px;
+}
+
+.contact-title {
+ text-align: center;
+ font-family: Questrial;
+ margin-bottom: 30px;
+}
+
+.contact-excerpt {
+  margin-bottom: 45px;
+}
+
+/**
+ * screenprinting
+ */
+
+.underlay-screenprinting {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/screenprintingbackground.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.sports {
+  height: 220px;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/gladstonebaseball.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-left: 20%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+}
+
+.sports:hover {
+  background-image: url("/img/expressit/gladstonebaseball.jpg");
+  background-size: cover;
+  background-position: center;
+  .fade-in {
+    display: none;
+  }
+}
+
+.school {
+  height: 220px;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/lincolnpark.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+}
+
+.school:hover {
+  background-image: url("/img/expressit/lincolnpark.jpg");
+  background-size: cover;
+  background-position: center;
+  .fade-in {
+    display: none;
+  }
+}
+
+.choir {
+  height: 220px;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/choir.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+}
+
+.choir:hover {
+  background-image: url("/img/expressit/choir.jpg");
+  background-size: cover;
+  background-position: center;
+  .fade-in {
+    display: none;
+  }
+}
+
+.clubs {
+  height: 220px;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/running.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-left: 20%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+}
+
+.clubs:hover {
+  background-image: url("/img/expressit/running.jpg");
+  background-size: cover;
+  background-position: center;
+  .fade-in {
+    display: none;
+  }
+}
+
+.events {
+  height: 220px;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/teamfisher.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+}
+
+.events:hover {
+  background-image: url("/img/expressit/teamfisher.jpg");
+  background-size: cover;
+  background-position: center;
+  .fade-in {
+    display: none;
+  }
+}
+
+.totes {
+  height: 220px;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/totebag.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-right: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+}
+
+.totes:hover {
+  background-image: url("/img/expressit/totebag.jpg");
+  background-size: cover;
+  background-position: center;
+  .fade-in {
+    display: none;
+  }
+}
+
+.press {
+  height: 220px;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/candylane.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-left: 20%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+}
+
+.press:hover {
+  background-image: url("/img/expressit/candylane.jpg");
+  background-size: cover;
+  background-position: center;
+  .fade-in {
+    display: none;
+  }
+}
+
+.glitter {
+  height: 220px;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/glitter.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+}
+
+.glitter:hover {
+  background-image: url("/img/expressit/glitter.jpg");
+  background-size: cover;
+  background-position: center;
+  .fade-in {
+    display: none;
+  }
+}
+
+.photos {
+  height: 220px;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/dogphoto.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+}
+
+.photos:hover {
+  background-image: url("/img/expressit/dogphoto.jpg");
+  background-size: cover;
+  background-position: center;
+  .fade-in {
+    display: none;
+  }
+}
+
 
 /**
  * Site footer
