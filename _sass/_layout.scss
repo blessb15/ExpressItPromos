@@ -212,10 +212,15 @@
   text-align: center;
   margin-top: 35%;
 
-  .cat-1, .cat-2, .cat-3 {
+  .cat-1, .cat-2, .cat-3, .cat-con {
     background-color: rgba(0, 0, 0, 0.07);
     display: block;
     border-radius: 2px;
+    padding: 2px !important;
+  }
+
+  .cat-con:hover {
+    background-color: rgba(0, 0, 0, 0.09);
   }
 }
 
@@ -270,6 +275,16 @@
     margin-left: 0% !important;
     background-color: white !important;
   }
+
+  .popular {
+    margin-left: 13% !important;
+    width: 75% !important;
+  }
+
+  .pricing {
+    margin-left: 13% !important;
+    width: 75% !important;
+  }
 }
 
 @media screen and (max-width: 564px) {
@@ -292,16 +307,12 @@
     margin-left: 10px !important;
   }
 
-  .underlay, .underlay-contact, .underlay-screenprinting {
+  .underlay, .underlay-contact, .underlay-screenprinting, .underlay-promotional {
     display: none;
   }
 
-  .container {
-    padding-top: 25% !important;
-  }
-
-  .sports {
-    margin-top: 30% !important;
+  .main-con, .customproducts-con, .services-con {
+    padding-top: 20% !important;
   }
 }
 
@@ -580,7 +591,7 @@
 }
 
 /**
- * screenprinting
+ * Services
  */
 
 .underlay-screenprinting {
@@ -869,7 +880,7 @@
 }
 
 /**
- * Promotional
+ * Custom Products
  */
 
  .underlay-promotional {
@@ -884,6 +895,189 @@
    background-position: center;
  }
 
+ .list-title {
+   margin-top: 20px;
+   text-align: center;
+ }
+
+ .list-links {
+   margin-left: 30%;
+   margin-bottom: 40px;
+ }
+
+ .list-des {
+   margin-left: 3%;
+   margin-bottom: 40px;
+ }
+
+ .promo-snippet {
+   text-align: center;
+ }
+
+ .need-break {
+   margin-bottom: 36px;
+ }
+
+.promo {
+  text-align: center;
+}
+
+.list-links a {
+  color: #86c724;
+}
+
+.list-links:hover a {
+  color: #86c724;
+  text-decoration: none;
+}
+
+.stat {
+  text-align: center;
+}
+
+.wedding {
+  height: 220px;
+  width: 100%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/weddinginvite.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-top: 12px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  margin-left: 15%;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+}
+
+.wedding:hover {
+  background-image: url("/img/expressit/weddinginvite.jpg");
+  background-size: cover;
+  background-position: center;
+  .fade-in {
+    display: none;
+  }
+}
+
+/**
+ * Wrist Coils
+ */
+
+.solid-coil {
+  height: 300px;
+  width: 100%;
+  background:
+  url("/img/expressit/wristcoil.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 25px;
+  margin-right: 25%;
+  margin-left: 10%;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
+  .fade-in {
+    display: none;
+  }
+}
+
+.solid-coil:hover {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/wristcoil.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  .fade-in {
+    display: block;
+  }
+  .fade-out {
+    display: none;
+  }
+}
+
+
+.trans-coil {
+  height: 300px;
+  width: 100%;
+  background:
+  url("/img/expressit/purplewrist.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+  .fade-in {
+    display: none;
+  }
+}
+
+.trans-coil:hover {
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/purplewrist.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  .fade-in {
+    display: block;
+  }
+  .fade-out {
+    display: none;
+  }
+}
+
+.price-trans {
+  margin-left: 30%;
+}
+
+.price-solid {
+  margin-left: 10%;
+}
+
+.coil-pricing {
+  margin-right: 20px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+}
+
+.coil-pricing-title {
+  text-align: center;
+}
+
+.qty {
+  margin-right: 35px;
+  margin-left: 20px;
+}
+
+.qty2 {
+  margin-right: 75px;
+}
+
+.per {
+  margin-left: 50px;
+}
+
+.per2 {
+  margin-left: 30px;
+}
 
 /**
  * Site footer

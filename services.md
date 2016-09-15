@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "screenprinting"
+permalink: "services"
 ---
 
   <header class="site-header">
@@ -13,7 +13,7 @@ permalink: "screenprinting"
 
 <div class="containter screenprinting-con">
 
-  <div class="screen-top">
+  <!-- <div class="screen-top"> -->
     <div class="popular col-md-6">
       <h3 class="font1">Most Popular T-Shirts</h3>
       <hr />
@@ -24,7 +24,7 @@ permalink: "screenprinting"
       <hr />
       <p class="font1">Call us for a custom quote. A 1 color screen printed shirt is usually between $5.00 - $7.00</p>
     </div>
-  </div>
+  <!-- </div> -->
 
   <div class="col-md-2 sports left-side">
     <div class="fade-in">
