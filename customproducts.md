@@ -33,91 +33,84 @@ permalink: "customproducts"
     <p>52% of participants in the study did business with the advertiser after receiving the promotional product. 52% of participants reported having a more favorable impression of the advertiser since receiving the item.</p>
   </div>
 
-  <div class="col-md-6 col-md-offset-3 list-title">
+
+<div class="col-md-4 col-md-offset-1">
+  <div class="list-title">
     <h3 class="font1">Highlighted Suppliers Web Pages</h3>
     <hr />
   </div>
-  <div class="col-md-2 list-links" >
-    <p class="font1"><a href="http://www.aakronline.com/">The AAkron Line</a></p>
-    <p class="font1"><a href="http://www.beaconpromotions.com/">Beacon Promotions</a></p>
-    <p class="font1"><a href="https://online.bicgraphic.com/sites/bicgraphic/global_landing.html">Bic</a></p>
-    <p class="font1"><a href="http://www.goldstarpens.com/UI/Default.aspx">Goldstar</a></p>
-    <p class="font1"><a href="http://www.mugmonkey.com/">Imageline</a></p>
-    <p class="font1"><a href="http://www.keystoneline.com/">Keystone</a></p>
-    <br />
-    <p class="font1"><a href="http://www.megafastline.com/">Mega Fast</a></p>
-    <p class="font1"><a href="http://www.primeline.com/">Prime Line</a></p>
-    <p class="font1"><a href="http://www.chocolateinn.com//intro">Taylor and Grant</a></p>
+  <div class="list-links">
+    <p class="font1"><a href="http://www.aakronline.com/">The AAkron Line</a> - <span class="link-des">Office Supplies and other various items</span></p>
+    <p class="font1"><a href="http://www.beaconpromotions.com/">Beacon Promotions</a> - <span class="link-des">Calendars, Table covers & other items</span></p>
+    <p class="font1"><a href="https://online.bicgraphic.com/sites/bicgraphic/global_landing.html">Bic</a> - <span class="link-des">Pens, Pencils, Notepads, Mousepads, etc...</span></p>
+    <p class="font1"><a href="http://www.goldstarpens.com/UI/Default.aspx">Goldstar</a> - <span class="link-des">Great deals on Pens!</span></p>
+    <p class="font1"><a href="http://www.mugmonkey.com/">Imageline</a> - <span class="link-des">Low cost Drinkware</span></p>
+    <p class="font1"><a href="http://www.keystoneline.com/">Keystone</a> - <span class="link-des">Drinkware, Sport Bottles, Fun Items, Key Tags, Desk and Office</span></p>
+    <p class="font1"><a href="http://www.megafastline.com/">Mega Fast</a> - <span class="link-des">Various Items - Many Specials!</span></p>
+    <p class="font1"><a href="http://www.primeline.com/">Prime Line</a> - <span class="link-des">USB items, computer essentials, stress balls</span></p>
+    <p class="font1"><a href="http://www.chocolateinn.com//intro">Taylor and Grant</a> - <span class="link-des">Candies, Chocolates and Food Gifts</span></p>
   </div>
-  <div class="col-md-4 list-des">
-    <p class="font1">Office Supplies and other various items</p>
-    <p class="font1">Calendars, Table covers & other items</p>
-    <p class="font1">Pens, Pencils, Notepads, Mousepads, etc...</p>
-    <p class="font1">Great deals on Pens!</p>
-    <p class="font1">Low cost Drinkware</p>
-    <p class="font1">Drinkware, Sport Bottles, Fun Items, Key Tags, Desk and Office</p>
-    <p class="font1">Various Items - Many Specials!</p>
-    <p class="font1">USB items, computer essentials, stress balls</p>
-    <p class="font1">Candies, Chocolates and Food Gifts</p>
-  </div>
+</div>
 
-  <div class="col-md-12 stat">
-    <h2 class="font1">Stationary Products</h2>
+<div class="col-md-4 col-md-offset-1 stattt">
+  <div class="stat">
+    <h3 class="font1">Stationary Products</h3>
     <hr />
   </div>
-
-  <a href="http://viewonly.carlsoncraft.com/Wedding/index.cat">
-    <div class="col-md-2 wedding">
+  <div class="stat-snippet">
+    <p>ExPress It Promotional Products is a certified retailer for Carlson Craft who offer various Stationery products for all occasions.
+    Check out the on-line catalog at <a href="http://viewonly.carlsoncraft.com">Carlson Craft</a> and give us a call for further information.</p>
+  </div>
+  <!-- <a href="http://viewonly.carlsoncraft.com/Wedding/index.cat">
+    <div class="col-md-6 wedding">
       <div class="fade-in">
         <h3 class="category-title font1">Wedding Invites</h3>
       </div>
     </div>
   </a>
+  <a href="http://viewonly.carlsoncraft.com/Graduation/Announcements/index.cat?siteId=4511&productsPerPage=2&sortOrder=99&sortByColumnName=SortByNewest">
+    <div class="col-md-6 grad">
+      <div class="fade-in">
+        <h3 class="category-title font1">Graduations</h3>
+      </div>
+    </div>
+  </a> -->
+</div>
 
-  <div class="col-md-6">
-    <h4>ExPress It Promotional Products is a certified retailer for Carlson Craft who offer various Stationery products for all occasions.
-    Check out the on-line catalog at <a href="http://viewonly.carlsoncraft.com">Carlson Craft</a> and give us a call for further information.</h4>
-  </div>
-
-  <div class="col-md-12 stat">
-    <h2 class="font1">Wrist Coils</h2>
+  <div class="col-md-6 coil-title">
+    <h3 class="font1">Wrist Coils</h3>
     <hr />
   </div>
-
-  <div class="col-md-6 col-md-offset-5">
-    <h3 class="font1">Hover for pricing!</h3>
-  </div>
-
   <div class="col-md-3 solid-coil">
     <div class="solid-price">
-    <h3 class="font1 fade-out">Solid Color Wrist Coils</h3>
+    <h4 class="font1 fade-out">Solid Color Wrist Coils</h4>
       <div class="fade-in font1 category-title">
-        <h3>Pricing</h3>
+        <h4>Pricing</h4>
         <p><span class="qty">QTY</span><span class="per">Price Per</span></p>
         <hr />
-        <p><span class="qty2">250</span><span class="per2">.40</span></p>
-        <p><span class="qty2">500</span><span class="per2">.34</span></p>
-        <p><span class="qty2">1000</span><span class="per2">.30</span></p>
-        <p><span class="qty2">2000</span><span class="per2">.29</span></p>
-        <p><span class="qty2">3000</span><span class="per2">.28</span></p>
-        <p><span class="qty2">4000+</span><span class="per2">.27</span></p>
+        <p><span class="qty2">250</span><span class="per2">40 &#162;</span></p>
+        <p><span class="qty2">500</span><span class="per2">34 &#162;</span></p>
+        <p><span class="qty2">1000</span><span class="per2">30 &#162;</span></p>
+        <p><span class="qty2">2000</span><span class="per2">29 &#162;</span></p>
+        <p><span class="qty2">3000</span><span class="per2">28 &#162;</span></p>
+        <p><span class="qty2">4000+</span><span class="per2">27 &#162;</span></p>
       </div>
     </div>
   </div>
 
   <div class="col-md-3 trans-coil">
     <div class="trans-price">
-    <h3 class="font1 fade-out">Translucent Color Wrist Coils</h3>
+    <h4 class="font1 fade-out">Translucent Color Wrist Coils</h4>
       <div class="fade-in font1 category-title">
-        <h3>Pricing</h3>
+        <h4>Pricing</h4>
         <p><span class="qty">QTY</span><span class="per">Price Per</span></p>
         <hr />
-        <p><span class="qty2">250</span><span class="per2">.44</span></p>
-        <p><span class="qty2">500</span><span class="per2">.38</span></p>
-        <p><span class="qty2">1000</span><span class="per2">.34</span></p>
-        <p><span class="qty2">2000</span><span class="per2">.33</span></p>
-        <p><span class="qty2">3000</span><span class="per2">.32</span></p>
-        <p><span class="qty2">4000+</span><span class="per2">.31</span></p>
+        <p><span class="qty2">250</span><span class="per2">44 &#162;</span></p>
+        <p><span class="qty2">500</span><span class="per2">38 &#162;</span></p>
+        <p><span class="qty2">1000</span><span class="per2">34 &#162;</span></p>
+        <p><span class="qty2">2000</span><span class="per2">33 &#162;</span></p>
+        <p><span class="qty2">3000</span><span class="per2">32 &#162;</span></p>
+        <p><span class="qty2">4000+</span><span class="per2">31 &#162;</span></p>
       </div>
     </div>
   </div>

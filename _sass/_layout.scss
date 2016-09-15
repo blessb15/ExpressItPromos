@@ -11,6 +11,15 @@
    font-family: Questrial;
  }
 
+ a:hover {
+   color: #86c724 !important;
+   text-decoration: none !important;
+ }
+
+ a {
+   color: #86c724 !important;
+ }
+
 /**
  * Nav-bar
  */
@@ -246,7 +255,9 @@
   z-index: 5;
 }
 
-
+/**
+ * Media Query
+ */
 
 @media screen and (max-width: 990px) {
   .dropdown1, .dropdown2, .dropdown3, .nav-right {
@@ -284,6 +295,22 @@
   .pricing {
     margin-left: 13% !important;
     width: 75% !important;
+  }
+
+  .solid-coil {
+    margin-left: 0px !important;
+  }
+
+  .trans-coil {
+    margin-left: 0px !important;
+  }
+
+  .wedding {
+    display: none;
+  }
+
+  .list-links {
+    margin-left: 5% !important;
   }
 }
 
@@ -896,13 +923,12 @@
  }
 
  .list-title {
-   margin-top: 20px;
+
    text-align: center;
  }
 
  .list-links {
-   margin-left: 30%;
-   margin-bottom: 40px;
+   margin-left: 5%;
  }
 
  .list-des {
@@ -914,12 +940,12 @@
    text-align: center;
  }
 
- .need-break {
-   margin-bottom: 36px;
- }
-
 .promo {
   text-align: center;
+}
+
+.col-md-offset-1 {
+  margin-top: 25px;
 }
 
 .list-links a {
@@ -935,9 +961,17 @@
   text-align: center;
 }
 
+.stat-snippet {
+  text-align: center;
+}
+
+.stattt {
+  margin-bottom: 55px;
+}
+
 .wedding {
-  height: 220px;
-  width: 100%;
+  height: 90px;
+  width: 75%;
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.5),
@@ -946,24 +980,41 @@
   url("/img/expressit/weddinginvite.jpg");
   background-size: cover;
   background-position: center;
-  padding: 15px;
+  border-radius: 3px;
+  padding: 2px;
   margin-top: 12px;
   margin-bottom: 25px;
   margin-right: 20px;
-  margin-left: 15%;
   padding-bottom: 25px;
   text-align: center;
   z-index: 0;
 }
 
-.wedding:hover {
-  background-image: url("/img/expressit/weddinginvite.jpg");
+.wedding:hover a {
+  text-decoration: none;
+}
+
+.grad {
+  height: 50px;
+  width: 75%;
+  background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("/img/expressit/grad.jpg");
   background-size: cover;
   background-position: center;
-  .fade-in {
-    display: none;
-  }
+  border-radius: 3px;
+  padding: 2px;
+  margin-top: 12px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  padding-bottom: 25px;
+  text-align: center;
+  z-index: 0;
 }
+
 
 /**
  * Wrist Coils
@@ -978,8 +1029,8 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 25px;
-  margin-right: 25%;
-  margin-left: 10%;
+  margin-right: 15%;
+  margin-left: 18%;
   padding-bottom: 25px;
   text-align: center;
   z-index: 0;
@@ -1017,7 +1068,7 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 25px;
-  margin-left: 20px;
+  margin-left: 0px;
   padding-bottom: 50px;
   text-align: center;
   .fade-in {
@@ -1052,6 +1103,11 @@
   margin-left: 10%;
 }
 
+.coil-title {
+  text-align: center;
+  margin-left: 25%
+}
+
 .coil-pricing {
   margin-right: 20px;
   padding-bottom: 5px;
@@ -1079,6 +1135,9 @@
   margin-left: 30px;
 }
 
+.hover {
+  text-align: center;
+}
 /**
  * Site footer
  */
