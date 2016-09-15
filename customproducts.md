@@ -11,12 +11,7 @@ permalink: "customproducts"
   </div>
 </header>
 
-<div class="containter customproducts-con">
-
-  <div class="col-md-12 promo">
-    <h2 class="font1">Promo Products</h2>
-    <hr />
-  </div>
+<div class="containter customproducts-con"  id="promoproducts">
 
   <div class="col-md-4 promo-snippet">
     <h3 class="font1">Do Promotional Products Really Work?</h3>
@@ -28,7 +23,7 @@ permalink: "customproducts"
     <p>71.6% of attendees who received a promotional product remembered the name of the company that gave them the product 76.3% of attendees had a favorable attitude toward the company that gave them the product.</p>
   </div>
 
-  <div class="col-md-4 promo-snippet">
+  <div class="col-md-4 promo-snippet" id="Stationaryproducts">
     <h3 class="font1 need-break">Impression of the Advertiser</h3>
     <p>52% of participants in the study did business with the advertiser after receiving the promotional product. 52% of participants reported having a more favorable impression of the advertiser since receiving the item.</p>
   </div>
@@ -36,7 +31,7 @@ permalink: "customproducts"
 
 <div class="col-md-4 col-md-offset-1">
   <div class="list-title">
-    <h3 class="font1">Highlighted Suppliers Web Pages</h3>
+    <h3 class="font1">Promo Products</h3>
     <hr />
   </div>
   <div class="list-links">
@@ -78,7 +73,7 @@ permalink: "customproducts"
 </div>
 
   <div class="col-md-6 coil-title">
-    <h3 class="font1">Wrist Coils</h3>
+    <h3 class="font1" id="wristcoils">Wrist Coils</h3>
     <hr />
   </div>
   <div class="col-md-3 solid-coil">
