@@ -97,3 +97,5 @@ permalink: "customproducts"
   </div>
 
 </div>
+
+{% include widgets/snap_up.html src="customproducts.html" %}

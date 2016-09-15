@@ -3,7 +3,7 @@ layout: default
 permalink: "services"
 ---
 
-  <header class="site-header">
+  <header class="site-header" id="top">
     <div class="underlay-screenprinting">
       <div class="title-head">
         <h1 class="site-title font1">Services</h1>
@@ -108,3 +108,5 @@ permalink: "services"
   </div>
 
 </div>
+
+{% include widgets/snap_up.html src="services.html" %}

@@ -3,7 +3,7 @@ layout: default
 permalink: "contact"
 ---
 
-<header class="site-header">
+<header class="site-header" id="top">>
   <div class="underlay-contact">
     <div class="title-head">
       <h1 class="site-title">Contact Us</h1>
@@ -43,6 +43,10 @@ permalink: "contact"
   </div>
 </div>
 
-<div class="map">
+
+<div class="my-map">
   {% include map.html %}
 </div>
+
+
+{% include widgets/snap_up.html src="contact.html" %}
