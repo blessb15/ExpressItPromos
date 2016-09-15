@@ -312,6 +312,14 @@
   .list-links {
     margin-left: 5% !important;
   }
+
+  .coil-title {
+    margin-left: 0px !important;
+  }
+
+  .Vector {
+    margin-left: 0px !important;
+  }
 }
 
 @media screen and (max-width: 564px) {
@@ -620,6 +628,32 @@
 /**
  * Services
  */
+
+#screenprinting {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#artworkreq {
+  text-align: center;
+}
+
+#embroidery {
+  text-align: center;
+}
+
+.Vector {
+  margin-left: 20%;
+  text-align: center;
+}
+
+.Raster {
+  text-align: center;
+}
+
+.compare-pic {
+  margin-top: 35px;
+}
 
 .underlay-screenprinting {
   background:

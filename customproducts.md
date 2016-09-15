@@ -56,20 +56,6 @@ permalink: "customproducts"
     <p>ExPress It Promotional Products is a certified retailer for Carlson Craft who offer various Stationery products for all occasions.
     Check out the on-line catalog at <a href="http://viewonly.carlsoncraft.com">Carlson Craft</a> and give us a call for further information.</p>
   </div>
-  <!-- <a href="http://viewonly.carlsoncraft.com/Wedding/index.cat">
-    <div class="col-md-6 wedding">
-      <div class="fade-in">
-        <h3 class="category-title font1">Wedding Invites</h3>
-      </div>
-    </div>
-  </a>
-  <a href="http://viewonly.carlsoncraft.com/Graduation/Announcements/index.cat?siteId=4511&productsPerPage=2&sortOrder=99&sortByColumnName=SortByNewest">
-    <div class="col-md-6 grad">
-      <div class="fade-in">
-        <h3 class="category-title font1">Graduations</h3>
-      </div>
-    </div>
-  </a> -->
 </div>
 
   <div class="col-md-6 coil-title">
