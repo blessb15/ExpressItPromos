@@ -11,7 +11,7 @@ permalink: "contact"
   </div>
 </header>
 
-<div class="container">
+<div class="container contact-con">
 
   <h2 class="contact-title">ExPress It Promotional Products</h2>
   <h4 class="contact-excerpt">We are a small business located in Milwaukie, Oregon. We do many jobs with local Businesses, Schools and Churches. We have minumum overhead so we can keep prices low. We specialize in Screen Printing, Embroidery and Promotional Products. We also sell Stationery Products for all occasions. Contact us today for a custom quote.</h4>
