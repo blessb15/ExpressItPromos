@@ -3,7 +3,7 @@ layout: default
 permalink: "contact"
 ---
 
-<header class="site-header" id="top">>
+<header class="site-header">
   <div class="underlay-contact">
     <div class="title-head">
       <h1 class="site-title">Contact Us</h1>
