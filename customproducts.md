@@ -66,7 +66,7 @@ permalink: "customproducts"
     <div class="solid-price">
     <h4 class="font1 fade-out">Solid Color Wrist Coils</h4>
       <div class="fade-in font1 category-title">
-        <h4>Pricing</h4>
+        <h4 class="price-tag">Pricing</h4>
         <p><span class="qty">QTY</span><span class="per">Price Per</span></p>
         <hr />
         <p><span class="qty2">250</span><span class="per2">40 &#162;</span></p>
@@ -83,7 +83,7 @@ permalink: "customproducts"
     <div class="trans-price">
     <h4 class="font1 fade-out">Translucent Color Wrist Coils</h4>
       <div class="fade-in font1 category-title">
-        <h4>Pricing</h4>
+        <h4 class="price-tag">Pricing</h4>
         <p><span class="qty">QTY</span><span class="per">Price Per</span></p>
         <hr />
         <p><span class="qty2">250</span><span class="per2">44 &#162;</span></p>

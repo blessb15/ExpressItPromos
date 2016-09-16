@@ -318,6 +318,10 @@
     margin-left: 0px !important;
   }
 
+  .price-tag {
+    padding-top: 7px !important;
+  }
+
   .wedding {
     display: none;
   }
@@ -1143,12 +1147,18 @@
 }
 
 .price-trans {
+  padding-top: 5px;
   margin-left: 30%;
 }
 
 .price-solid {
+  padding-top: 5px;
   margin-left: 10%;
 }
+//
+// .price-tag {
+//   padding-top: 5px;
+// }
 
 .coil-title {
   text-align: center;
