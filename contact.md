@@ -12,10 +12,8 @@ permalink: "contact"
 </header>
 
 <div class="container contact-con">
-
   <h2 class="contact-title">ExPress It Promotional Products</h2>
   <h4 class="contact-excerpt">We are a small business located in Milwaukie, Oregon. We do many jobs with local Businesses, Schools and Churches. We have minumum overhead so we can keep prices low. We specialize in Screen Printing, Embroidery and Promotional Products. We also sell Stationery Products for all occasions. Contact us today for a custom quote.</h4>
-
   <div class="col-md-6">
     <form form action="https://formspree.io/expressitpromos@gmail.com"
         method="POST">
@@ -28,7 +26,6 @@ permalink: "contact"
       <button class="btn btn-submit" type="submit">Send</button>
     </form>
   </div>
-
   <div class="col-md-6">
     <div class="contact-info">
       <h4 class="font1">Email</h4>
@@ -43,10 +40,5 @@ permalink: "contact"
   </div>
 </div>
 
-
-<div class="my-map">
-  {% include map.html %}
-</div>
-
-
 {% include widgets/snap_up.html src="contact.html" %}
+{% include footer.html %}
