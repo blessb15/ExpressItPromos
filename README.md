@@ -1,7 +1,7 @@
 # Express It Promos
 Updated version of the old site (http://expressitpromos.com/)
 
-### [View Example Site](https://expressitpromos.bowtied.io/)
+### [View New Site](https://expressitpromos.bowtied.io/)
 
 ## Tech used
 * _JS_
