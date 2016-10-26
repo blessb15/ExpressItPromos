@@ -5,9 +5,9 @@ Updated version of the old site (http://expressitpromos.com/)
 
 ## Tech used
 * _JS_
-*_HTML_
-*_CSS_
-*_JEKYLL_
-*_LIQUID_
+* _HTML_
+* _CSS_
+* _JEKYLL_
+* _LIQUID_
 
 
