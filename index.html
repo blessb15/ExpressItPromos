@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<header class="site-header" id="top">>
+<header class="site-header">
+  <a name="top"></a>
   <div class="underlay">
     <div class="title-head">
       <h1 class="site-title">{{ site.title }}</h1>
@@ -11,37 +12,38 @@ layout: default
 </header>
 
 <div class="container main-con">
-  <div class="col-md-5 screenprinting left-side" style="float: left;">
-    <a href="services.html#screenprinting" class="links">
+
+  <a href="services.html#screenprinting" class="links">
+    <div class="col-md-5 screenprinting left-side" style="float: left;">
       <h3 class="category-title">Screen Printing</h3>
       <hr />
       <p class="category-excerpt">We are able to do small or large size orders. No minimums required.</p>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="col-md-5 embroidery right-side" style="float: right;">
-    <a href="services.html#embroidery" class="links">
+  <a href="services.html#embroidery" class="links">
+    <div class="col-md-5 embroidery right-side" style="float: right;">
       <h3 class="category-title">Embroidery</h3>
       <hr />
       <p class="category-excerpt">Get your apparel embroidered with your custom logo</p>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="col-md-5 promotional left-side" style="float: left;">
-    <a href="customproducts.html#promoproducts" class="links">
+  <a href="customproducts.html#promoproducts" class="links">
+    <div class="col-md-5 promotional left-side" style="float: left;">
       <h3 class="category-title">Promotional Products</h3>
       <hr />
       <p class="category-excerpt">Search for over 700,000 online products</p>
-    </a>
-  </div>
+    </div>
+  </a>
 
-  <div class="col-md-5 stationary right-side" style="float: right;">
-    <a href="customproducts.html#Stationaryproducts" class="links">
+  <a href="customproducts.html#Stationaryproducts" class="links">
+    <div class="col-md-5 stationary right-side" style="float: right;">
       <h3 class="category-title">Stationary Products</h3>
       <hr />
       <p class="category-excerpt">We sell Stationery for all occasions - including Weddings, Graduations, Holidays, etc..</p>
-    </a>
-  </div>
+    </div>
+  </a>
 
   <div class=" catalogs" style="float: left;">
     <h3 class="category-title">Catalogs</h3>
@@ -55,5 +57,5 @@ layout: default
   </div>
 </div>
 
-{% include widgets/snap_up.html src="index.html" %}
+{% include widgets/snap_up.html %}
 {% include footer.html %}

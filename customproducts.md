@@ -3,7 +3,7 @@ layout: default
 permalink: "customproducts"
 ---
 
-<header class="site-header">
+<header class="site-header" name="top">
   <div class="underlay-promotional">
     <div class="title-head">
       <h1 class="site-title font1">Custom Products</h1>
@@ -89,7 +89,10 @@ permalink: "customproducts"
   </div>
 </div>
 
-{% include widgets/snap_up.html src="customproducts.html" %}
+<div>
+  {% include widgets/snap_up.html %}
+</div>
+
 <div class="bottom2">
   {% include footer.html %}
 </div>

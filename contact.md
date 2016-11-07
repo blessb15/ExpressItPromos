@@ -3,7 +3,7 @@ layout: default
 permalink: "contact"
 ---
 
-<header class="site-header">
+<header class="site-header" name="top">
   <div class="underlay-contact">
     <div class="title-head">
       <h1 class="site-title">Contact Us</h1>
@@ -15,7 +15,7 @@ permalink: "contact"
   <h2 class="contact-title">ExPress It Promotional Products</h2>
   <h4 class="contact-excerpt">We are a small business located in Milwaukie, Oregon. We do many jobs with local Businesses, Schools and Churches. We have minumum overhead so we can keep prices low. We specialize in Screen Printing, Embroidery and Promotional Products. We also sell Stationery Products for all occasions. Contact us today for a custom quote.</h4>
   <div class="col-md-6">
-    <form form action="https://formspree.io/expressitpromos@gmail.com"
+    <form action="https://formspree.io/expressitpromos@gmail.com"
         method="POST">
       <h4 class="font1">Your Email</h4>
       <input type="email" name="email" class="form-control">
@@ -40,5 +40,8 @@ permalink: "contact"
   </div>
 </div>
 
-{% include widgets/snap_up.html src="contact.html" %}
+<div>
+  {% include widgets/snap_up.html %}
+</div>
+
 {% include footer.html %}
