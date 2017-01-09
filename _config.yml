@@ -6,11 +6,11 @@ description: >
 email: expressitpromos@gmail.com
 phone: (503)703-9436
 
-logourl: /img/logo.png # Your logo or avatar
+logourl: /img/logo.png 
 
-author: Your Name
+author: Blake Bless
 
-author_thumbnail: /img/user1.png # default author avatar
+author_thumbnail:
 
 # Theme additions - please update the default values if you intend to use these variables
 
