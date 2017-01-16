@@ -21,7 +21,7 @@ permalink: "services"
       <h4>Raster Images</h4>
       <p>Raster Images are made up of tiny dots/pixels that look great at the size that it was created at but can only be resized a small amount or it will lose its clarity.  Raster art also can not be color separated for imprints.
       Common raster file formats are .jpg, .tif, .bmp, .gif</p>
-      <img src="/img/expressit/vector-raster.png" class="compare-pic">
+      <img src="/img/vector-raster.png" class="compare-pic">
     </div>
     <div class="col-md-3 Vector">
       <h4>Vector Images</h4>
