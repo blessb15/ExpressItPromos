@@ -383,7 +383,7 @@
      rgba(0, 0, 0, 0.5),
      rgba(0, 0, 0, 0.5)
    ),
-   url("img/screenprintingbackground2.jpg");
+   url("../img/screenprintingbackground2.jpg");
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
@@ -438,7 +438,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/screenprinting.jpg");
+  url("../img/screenprinting.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -451,7 +451,7 @@
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
   ),
-  url("img/screenprinting.jpg");
+  url("../img/screenprinting.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -463,7 +463,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/embroidery2.jpg");
+  url("../img/embroidery2.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -476,7 +476,7 @@
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
   ),
-  url("img/embroidery2.jpg");
+  url("../img/embroidery2.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -489,7 +489,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/promotional2.jpg");
+  url("../img/promotional2.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -502,7 +502,7 @@
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
   ),
-  url("img/promotional2.jpg");
+  url("../img/promotional2.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -515,7 +515,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/stationary.jpg");
+  url("../img/stationary.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -528,7 +528,7 @@
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
   ),
-  url("img/stationary.jpg");
+  url("../img/stationary.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -542,7 +542,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/catalogs.jpg");
+  url("../img/catalogs.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -562,7 +562,7 @@
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)
   ),
-  url("img/catalogs.jpg");
+  url("../img/catalogs.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -599,7 +599,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/background.jpg");
+  url("../img/background.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -681,7 +681,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/screenprintingbackground.jpg");
+  url("../img/screenprintingbackground.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -695,7 +695,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/gladstonebaseball.jpg");
+  url("../img/gladstonebaseball.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -709,7 +709,7 @@
 }
 
 .sports:hover {
-  background-image: url("img/gladstonebaseball.jpg");
+  background-image: url("../img/gladstonebaseball.jpg");
   background-size: cover;
   background-position: center;
   .fade-in {
@@ -725,7 +725,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/lincolnpark.jpg");
+  url("../img/lincolnpark.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -737,7 +737,7 @@
 }
 
 .school:hover {
-  background-image: url("img/lincolnpark.jpg");
+  background-image: url("../img/lincolnpark.jpg");
   background-size: cover;
   background-position: center;
   .fade-in {
@@ -753,7 +753,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/choir.jpg");
+  url("../img/choir.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -766,7 +766,7 @@
 }
 
 .choir:hover {
-  background-image: url("img/choir.jpg");
+  background-image: url("../img/choir.jpg");
   background-size: cover;
   background-position: center;
   .fade-in {
@@ -782,7 +782,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/running.jpg");
+  url("../img/running.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -795,7 +795,7 @@
 }
 
 .clubs:hover {
-  background-image: url("img/running.jpg");
+  background-image: url("../img/running.jpg");
   background-size: cover;
   background-position: center;
   .fade-in {
@@ -811,7 +811,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/teamfisher.jpg");
+  url("../img/teamfisher.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -823,7 +823,7 @@
 }
 
 .events:hover {
-  background-image: url("img/teamfisher.jpg");
+  background-image: url("../img/teamfisher.jpg");
   background-size: cover;
   background-position: center;
   .fade-in {
@@ -839,7 +839,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/totebag.jpg");
+  url("../img/totebag.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -852,7 +852,7 @@
 }
 
 .totes:hover {
-  background-image: url("img/totebag.jpg");
+  background-image: url("../img/totebag.jpg");
   background-size: cover;
   background-position: center;
   .fade-in {
@@ -868,7 +868,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/candylane.jpg");
+  url("../img/candylane.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -881,7 +881,7 @@
 }
 
 .press:hover {
-  background-image: url("img/candylane.jpg");
+  background-image: url("../img/candylane.jpg");
   background-size: cover;
   background-position: center;
   .fade-in {
@@ -897,7 +897,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/glitter.jpg");
+  url("../img/glitter.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -909,7 +909,7 @@
 }
 
 .glitter:hover {
-  background-image: url("img/glitter.jpg");
+  background-image: url("../img/glitter.jpg");
   background-size: cover;
   background-position: center;
   .fade-in {
@@ -925,7 +925,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/dogphoto.jpg");
+  url("../img/dogphoto.jpg");
   background-size: cover;
   background-position: center;
   padding: 15px;
@@ -937,7 +937,7 @@
 }
 
 .photos:hover {
-  background-image: url("img/dogphoto.jpg");
+  background-image: url("../img/dogphoto.jpg");
   background-size: cover;
   background-position: center;
   .fade-in {
@@ -970,7 +970,7 @@
      rgba(0, 0, 0, 0.5),
      rgba(0, 0, 0, 0.5)
    ),
-   url("img/promo.jpg");
+   url("../img/promo.jpg");
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
@@ -1031,7 +1031,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/weddinginvite.jpg");
+  url("../img/weddinginvite.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 3px;
@@ -1056,7 +1056,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/grad.jpg");
+  url("../img/grad.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 3px;
@@ -1077,7 +1077,7 @@
   height: 300px;
   width: 100%;
   background:
-  url("img/wristcoil.jpg");
+  url("../img/wristcoil.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1098,7 +1098,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/wristcoil.jpg");
+  url("../img/wristcoil.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1116,7 +1116,7 @@
   height: 300px;
   width: 100%;
   background:
-  url("img/purplewrist.jpg");
+  url("../img/purplewrist.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1135,7 +1135,7 @@
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url("img/purplewrist.jpg");
+  url("../img/purplewrist.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
