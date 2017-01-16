@@ -6,7 +6,7 @@ description: >
 email: expressitpromos@gmail.com
 phone: (503)703-9436
 
-logourl: /img/logo.png 
+logourl: /img/logo.png
 
 author: Blake Bless
 
@@ -64,7 +64,7 @@ paginate_path: /page/:num
 # Jekyll Handling Reading
 include:    [] # Specify files to be included in build that may be otherwise ignored (e.g. '[.htaccess]')
 
-keep_files: [] # Files/Folders located inside the ./_site folder to be retained on build (e.g.'[.git, .svn]')
+keep_files: [.img, .jpg, .png, .gif] # Files/Folders located inside the ./_site folder to be retained on build (e.g.'[.git, .svn]')
 
 # Files/Folders to be excluded from generated '_site' folder
 exclude:
