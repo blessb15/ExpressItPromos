@@ -1,13 +1,11 @@
 # Site settings
-baseurl: /ExpressItPromos
 title: ExPress It Promotional Products
-description: >
-  A hosted markdown blog with intuitive online editing. BowTie makes it easy to build sites, blogs, or static apps that you can hand off to clients.
 
 email: expressitpromos@gmail.com
+
 phone: (503)703-9436
 
-logourl: /img/logo.png
+logourl: #9090909
 
 author: Blake Bless
 
@@ -63,9 +61,9 @@ paginate_path: /page/:num
 # includes_dir: ./_includes
 
 # Jekyll Handling Reading
-include:    [.jpg, .png, .gif] # Specify files to be included in build that may be otherwise ignored (e.g. '[.htaccess]')
+include:    [.jpg, .png, .gif, .ttf] # Specify files to be included in build that may be otherwise ignored (e.g. '[.htaccess]')
 
-keep_files: [.jpg, .png, .gif] # Files/Folders located inside the ./_site folder to be retained on build (e.g.'[.git, .svn]')
+keep_files: [.jpg, .png, .gif, .tff] # Files/Folders located inside the ./_site folder to be retained on build (e.g.'[.git, .svn]')
 
 # Files/Folders to be excluded from generated '_site' folder
 exclude:
